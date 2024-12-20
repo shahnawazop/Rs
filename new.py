@@ -4,7 +4,7 @@ import base64
 
 
 TOKEN = "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"
-REPO = "shahnawazop/Rs"
+REPO = "https://github.com/shahnawazop/Rs"
 FILE_PATH = ".travis.yml"
 BRANCH = "main"
 
