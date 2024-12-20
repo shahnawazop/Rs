@@ -15,7 +15,7 @@ HEADERS = {
 
 def get_file_sha():
 
-    url = f"https://api.github.com/repos/{REPO}/contents/{FILE_PATH}"
+    url = f"https://github.com/shahnawazop/Rs"
     response = requests.get(url, headers=HEADERS)
     response.raise_for_status()
     return response.json()["sha"]
